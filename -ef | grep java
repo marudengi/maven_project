@@ -1,8 +1,0 @@
-[0;1;32m●[0m jenkins.service - Jenkins Continuous Integration Server
-     Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
-     Active: [0;1;32mactive (running)[0m since Thu 2022-07-07 10:48:21 KST; 3h 27min ago
-   Main PID: 3484 (java)
-      Tasks: 45 (limit: 3458)
-     Memory: 1.4G
-     CGroup: /system.slice/jenkins.service
-             └─3484 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
